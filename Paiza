@@ -1,0 +1,8 @@
+Scanner scanner = new Scanner(System.in);
+
+		String src = scanner.nextLine();
+		String name = src;
+		String names = name.replaceAll("[aiueoAIUEO]", "");
+		System.out.println(names);
+	}
+}
